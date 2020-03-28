@@ -1,0 +1,61 @@
+import 'package:flutter/material.dart';
+import 'main.dart';
+import 'Prevention.dart';
+void main()=> runApp(MaterialApp(
+    home: Updates()
+));
+class Updates extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(
+
+            'Updates on the Coronavirus',
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 20.0,
+              fontFamily: 'ShortStack',
+            )
+        ),
+        centerTitle: true,
+        backgroundColor: Colors.redAccent,
+      ),
+      body: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: <Widget>[
+          Container(
+            padding: EdgeInsets.fromLTRB(10.0, 20.0, 10.0, 10.0),
+            child: Text(
+              'LATEST UPDATE:\n\n'
+                  'According to CNBC, as the pandemic gets more dangerous and difficult, the death rate getting to newer heights, with more than 28,000 dead.\n\n'
+                  'According to WebMD, "U.S. has more than 100,000 Coronavirus Cases", which is more than china, which currently has 82000 cases of the Coronavirus.',
+              style: TextStyle(
+                fontFamily: 'ShortStack',
+                fontSize: 18.0,
+              ),
+            ),
+
+
+          ),
+          Container(
+            child:  RaisedButton(
+              color: Colors.redAccent,
+              child: Text(
+                'Home',
+                style: TextStyle(
+                    color: Colors.white
+                ),
+              ),
+              onPressed: () {
+                Navigator.push(context, MaterialPageRoute(
+                    builder:((context)=> (Home())
+                    )));
+              },
+            ),
+          )
+        ],
+      ),
+    );
+  }
+}
