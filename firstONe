@@ -21,20 +21,48 @@ class Home extends StatelessWidget {
             style: TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 25.0,
-              fontFamily: 'ShortStack',
+
             )
         ),
         centerTitle: true,
         backgroundColor: Colors.greenAccent,
       ),
-      body: Container(
-        padding: EdgeInsets.fromLTRB(10.0, 10.0, 10.0, 0.0),
-        child: Text(
-          'This is the intro',
-           style: TextStyle(
-            fontSize: 19.0,
+      body: Column(
+        children: <Widget>[
+          Container(
+          padding: EdgeInsets.fromLTRB(3.0, 10.0, 10.0, 10.0),
+          child: Text(
+            'This is the intro',
+            style: TextStyle(
+              fontSize: 19.0,
+            ),
+          ),
         ),
-        ),
+
+         Row(
+           mainAxisAlignment: MainAxisAlignment.center,
+           children: <Widget>[
+             RaisedButton(
+               color: Colors.greenAccent,
+               child: Text(
+                   'Info'
+               ),
+               onPressed: () {
+
+               },
+             ),
+             RaisedButton(
+               color: Colors.greenAccent,
+               child: Text(
+                   'Info2'
+               ),
+               onPressed: () {
+
+               },
+             ),
+           ],
+         )
+        ],
       )
 
 
