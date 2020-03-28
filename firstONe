@@ -48,7 +48,7 @@ class Home extends StatelessWidget {
              RaisedButton(
                color: Colors.greenAccent,
                child: Text(
-                   'Info',
+                   'Prevention',
                  style: TextStyle(
                    color: Colors.white,
                  ),
@@ -63,7 +63,7 @@ class Home extends StatelessWidget {
              RaisedButton(
                color: Colors.greenAccent,
                child: Text(
-                   'Info2',
+                   'Updates',
                  style: TextStyle(
                    color: Colors.white
                  ),
