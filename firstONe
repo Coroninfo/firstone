@@ -22,7 +22,7 @@ class Home extends StatelessWidget {
               fontFamily: 'ShortStack',
             )
         ),
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.greenAccent,
       ),
 
 
