@@ -30,6 +30,7 @@ class Updates extends StatelessWidget {
               'LATEST UPDATE:\n\n'
                   'According to CNBC, as the pandemic gets more dangerous and difficult, the death rate getting to newer heights, with more than 28,000 dead.\n\n'
                   'According to WebMD, "U.S. has more than 100,000 Coronavirus Cases", which is more than china, which currently has 82000 cases of the Coronavirus.',
+
               style: TextStyle(
                 fontFamily: 'ShortStack',
                 fontSize: 18.0,
@@ -38,6 +39,7 @@ class Updates extends StatelessWidget {
 
 
           ),
+
           Container(
             child:  RaisedButton(
               color: Colors.redAccent,
@@ -53,7 +55,8 @@ class Updates extends StatelessWidget {
                     )));
               },
             ),
-          )
+          ),
+          Text('\nResources:\nhttps://www.webmd.com/lung/news/20200124/coronavirus-2020-outbreak-latest-updates\nhttps://www.cnbc.com/2020/03/28/coronavirus-latest-updates.html '),
         ],
       ),
     );
