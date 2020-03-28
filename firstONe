@@ -6,6 +6,7 @@ git remote add origin https://github.com/Coroninfo/firstone.git
 git push -u origin master
 
 import 'package:flutter/material.dart';
+import 'Prevention.dart';
 void main()=> runApp(MaterialApp(
     home: Home()
 ));
@@ -54,7 +55,9 @@ class Home extends StatelessWidget {
                  ),
                ),
                onPressed: () {
-
+                 Navigator.push(context, MaterialPageRoute(
+                     builder:((context)=> (Prevention())
+                     )));
                },
              ),
              SizedBox(
@@ -81,3 +84,4 @@ class Home extends StatelessWidget {
 
     );
   }
+}
