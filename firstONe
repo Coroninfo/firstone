@@ -4,6 +4,7 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/Coroninfo/firstone.git
 git push -u origin master
+
 import 'package:flutter/material.dart';
 void main()=> runApp(MaterialApp(
     home: Home()
@@ -34,7 +35,7 @@ class Home extends StatelessWidget {
             child: Text(
               'The Coronavirus (COVID-19) has become one of the biggest issues our world is facing right now. With this, wrong information spreads, and people are misled. We, the app creators, want to provide information that is real and true so that people are not misled into believing otherwise.',
               style: TextStyle(
-                
+                fontFamily: 'ShortStack',
                 fontSize: 18.0,
               ),
             ),
@@ -47,7 +48,10 @@ class Home extends StatelessWidget {
              RaisedButton(
                color: Colors.greenAccent,
                child: Text(
-                   'Info'
+                   'Info',
+                 style: TextStyle(
+                   color: Colors.white,
+                 ),
                ),
                onPressed: () {
 
@@ -59,7 +63,10 @@ class Home extends StatelessWidget {
              RaisedButton(
                color: Colors.greenAccent,
                child: Text(
-                   'Info2'
+                   'Info2',
+                 style: TextStyle(
+                   color: Colors.white
+                 ),
                ),
                onPressed: () {
 
@@ -74,4 +81,3 @@ class Home extends StatelessWidget {
 
     );
   }
-}
