@@ -1,10 +1,3 @@
-echo "# firstone" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/Coroninfo/firstone.git
-git push -u origin master
-
 import 'package:corona_app/Updates.dart';
 import 'package:flutter/material.dart';
 import 'Prevention.dart';
@@ -34,9 +27,9 @@ class Home extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           Container(
-            padding: EdgeInsets.fromLTRB(10.0, 20.0, 10.0, 10.0),
+            padding: EdgeInsets.fromLTRB(13.0, 20.0, 10.0, 10.0),
             child: Text(
-              'The Coronavirus (COVID-19) has become one of the biggest issues our world is facing right now. With this, wrong information spreads, and people are misled. We, the app creators, want to provide information that is real and true so that people are not misled into believing otherwise.',
+              'The Coronavirus (COVID-19) has become one of the biggest issues our world is facing right now. With this, wrong information spreads, and people are misled. We, the app creators, want to provide information that is real and true so that people are not misled into believing otherwise. We will include news from different sources, allowing the reader to judge them based on their own reasoning.',
               style: TextStyle(
                 fontFamily: 'ShortStack',
                 fontSize: 18.0,
