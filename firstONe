@@ -5,8 +5,10 @@ git commit -m "first commit"
 git remote add origin https://github.com/Coroninfo/firstone.git
 git push -u origin master
 
+import 'package:corona_app/Updates.dart';
 import 'package:flutter/material.dart';
 import 'Prevention.dart';
+import 'Updates.dart';
 void main()=> runApp(MaterialApp(
     home: Home()
 ));
@@ -72,7 +74,9 @@ class Home extends StatelessWidget {
                  ),
                ),
                onPressed: () {
-
+                 Navigator.push(context, MaterialPageRoute(
+                     builder:((context)=> (Updates())
+                     )));
                },
              ),
            ],
