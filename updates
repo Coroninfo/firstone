@@ -64,7 +64,11 @@ class Updates extends StatelessWidget {
               },
             ),
           ),
-          Text('\nResources:\nhttps://www.webmd.com/lung/news/20200124/coronavirus-2020-outbreak-latest-updates\nhttps://www.cnbc.com/2020/03/28/coronavirus-latest-updates.html '),
+          Card(
+            child: Text(
+                '\nResources:\nhttps://www.webmd.com/lung/news/20200124/coronavirus-2020-outbreak-latest-updates\nhttps://www.cnbc.com/2020/03/28/coronavirus-latest-updates.html'
+            ),
+          )
         ],
       ),
     );
