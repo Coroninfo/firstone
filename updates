@@ -32,8 +32,9 @@ class Updates extends StatelessWidget {
                   'According to WebMD, "U.S. has more than 100,000 Coronavirus Cases", which is more than china, which currently has 82000 cases of the Coronavirus.',
 
               style: TextStyle(
-                fontFamily: 'ShortStack',
+                fontFamily: 'Muli',
                 fontSize: 18.0,
+
               ),
             ),
 
@@ -53,6 +54,7 @@ class Updates extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
                   fontSize: 20.0,
+                  fontFamily: 'Muli',
                 ),
               ),
               onPressed: () {
