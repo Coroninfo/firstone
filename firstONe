@@ -17,6 +17,7 @@ class Home extends StatelessWidget {
             style: TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 25.0,
+              fontFamily: 'Muli'
 
             )
         ),
@@ -30,9 +31,9 @@ class Home extends StatelessWidget {
           Container(
             padding: EdgeInsets.fromLTRB(13.0, 20.0, 10.0, 10.0),
             child: Text(
-              'The Coronavirus (COVID-19) has become one of the biggest issues our world is facing right now. With this, wrong information spreads, and people are misled. We, the app creators, want to provide information that is real and true so that people are not misled into believing otherwise. We will include news from different sources, allowing the reader to judge them based on their own reasoning.',
+              'The Coronavirus (COVID-19) has become one of the biggest issues our world is facing right now. With this, wrong information spreads, and people are misled. We, the app creators, want to provide information that is real and true so that people are not misled into believing otherwise. We will include news from different sources, allowing the reader to judge them based on their own reasonings.',
               style: TextStyle(
-                fontFamily: 'ShortStack',
+                fontFamily: 'Muli',
                 fontSize: 18.0,
               ),
             ),
@@ -53,6 +54,7 @@ class Home extends StatelessWidget {
                  style: TextStyle(
                    fontWeight: FontWeight.bold,
                    color: Colors.white,
+                   fontFamily: 'Muli'
                  ),
                ),
 
@@ -78,6 +80,7 @@ class Home extends StatelessWidget {
                  style: TextStyle(
                    fontWeight: FontWeight.bold,
                    color: Colors.white,
+                   fontFamily: 'Muli',
                  ),
                ),
 
